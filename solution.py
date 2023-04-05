@@ -8,6 +8,4 @@ def solution(x: np.array) -> float:
     # Измените код этой функции
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
-    log_x = np.log(x)
-    a = log_x.mean()
-    return a
+    return np.log(x-335).mean()
